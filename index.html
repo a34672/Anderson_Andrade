@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<title>Projeto_Teste</title>
+	<style>
+		#id_da_tabela{	
+		  font-family: Arial, Helvetica, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
+
+
+		#id_da_tabela td, #id_da_tabela th {
+		  border: 1px solid #ddd;
+		  padding: 8px;
+		}
+
+		#id_da_tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+		#id_da_tabela tr:hover {background-color: #ddd;}
+
+		#id_da_tabela th {
+		  padding-top: 12px;
+		  padding-bottom: 12px;
+		  text-align: left;
+		  background-color: #04AA6D;
+		  color: white;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Teste_Front</h1>
+
+	<table id="id_da_tabela"class="display" style="width:100%">
+		<!--Colunas da Tabela-->
+		<thead>
+			<tr id="colTabela">
+				<td>Nome</td>
+				<td>Altura</td>
+				<td>Peso</td>
+				<td>Aniversario</td>
+				<td>Genero</td>
+				<td>Cor da Pele</td>
+				
+			</tr>
+		</thead>
+		<!--Dados da Tabela-->
+		<tbody>
+			<tr>
+				<td>Anderson</td>
+				<td>1.65 m</td>
+				<td>76 kg</td>
+				<td>11-10-1982</td>
+				<td>Masculino</td>
+				<td>Negro</td>
+			</tr>
+			<tr>
+				<td>Paulo</td>
+				<td>1.80 m</td>
+				<td>83 kg</td>
+				<td>13-01-1997</td>
+				<td>Masculino</td>
+				<td>Branco</td>
+			</tr>
+			<tr>
+				<td>Roberta</td>
+				<td>1.62 m</td>
+				<td>64 kg</td>
+				<td>23-02-1991</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>
+			<tr>
+				<td>Nancy</td>
+				<td>1.54 m</td>
+				<td>54 kg</td>
+				<td>02-04-1976</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>
+			<tr>
+				<td>Onildo</td>
+				<td>1.76 m</td>
+				<td>76 kg</td>
+				<td>07-12-1950</td>
+				<td>Masculino</td>
+				<td>Negro</td>
+			</tr>
+			<tr>
+				<td>Ivan</td>
+				<td>1.67 m</td>
+				<td>78 kg</td>
+				<td>07-06-1976</td>
+				<td>Masculino</td>
+				<td>Negro</td>
+			</tr>
+			<tr>
+				<td>Monica</td>
+				<td>1.53 m</td>
+				<td>56 kg</td>
+				<td>16-10-1993</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>
+			<tr>
+				<td>Anita</td>
+				<td>1.52 m</td>
+				<td>57 kg</td>
+				<td>04-02-1995</td>
+				<td>Feminino</td>
+				<td>Branca</td>
+			</tr>
+			<tr>
+				<td>Joana</td>
+				<td>1.72 m</td>
+				<td>59 kg</td>
+				<td>04-09-1994</td>
+				<td>Feminino</td>
+				<td>Parda</td>
+			</tr>			
+			<tr>
+				<td>Patricia</td>
+				<td>1.51 m</td>
+				<td>65 kg</td>
+				<td>02-02-1994</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>			
+			<tr>
+				<td>Joelma</td>
+				<td>1.52 m</td>
+				<td>77 kg</td>
+				<td>04-02-1994</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>			
+			<tr>
+				<td>Giane</td>
+				<td>1.67 m</td>
+				<td>78 kg</td>
+				<td>23-11-1987</td>
+				<td>Feminino</td>
+				<td>Parda</td>
+			</tr>			
+			<tr>
+				<td>Yara</td>
+				<td>1.50 m</td>
+				<td>57 kg</td>
+				<td>04-02-1974</td>
+				<td>Feminino</td>
+				<td>Parda</td>
+			</tr>			
+			<tr>
+				<td>Ana Beatriz</td>
+				<td>1.56 m</td>
+				<td>62 kg</td>
+				<td>04-06-1992</td>
+				<td>Feminino</td>
+				<td>Parda</td>
+			</tr>			
+			<tr>
+				<td>Juliana</td>
+				<td>1.56 m</td>
+				<td>65 kg</td>
+				<td>02-02-1986</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>			
+			<tr>
+				<td>Vilma</td>
+				<td>1.57 m</td>
+				<td>67 kg</td>
+				<td>04-02-1974</td>
+				<td>Feminino</td>
+				<td>Negra</td>
+			</tr>	
+			<tr>
+				<td>Amanda</td>
+				<td>1.55 m</td>
+				<td>78 kg</td>
+				<td>08-02-2004</td>
+				<td>Feminino</td>
+				<td>Branca</td>
+			</tr>
+		</tbody>
+	</table>
+	<!--Utilizando plug-in do Data Table-->
+	<!--Link do css para o DataTable-->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+	<!--Link do Javascript para o DataTable-->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+	<!--Referencia da Tabela atravez do Id-->
+	<script>
+		$(document).ready(function () {
+   			 $('#id_da_tabela').DataTable({
+		   		    "language": {
+		            "lengthMenu": "Mostrando_MENU_registros por página",
+		            "zeroRecords": "Nada encontrado",
+		            "info": "Mostrando página _PAGE_ de _PAGES_",
+		            "infoEmpty": "Nenhum registro disponível",
+		            "infoFiltered": "(filtrado de _MAX_ registros no total )"
+		        }
+   			 });
+		});
+	</script>
+</body>
+</html>
